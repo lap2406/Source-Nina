@@ -1,0 +1,2 @@
+::1(admin)--query--tables(delete from table_user_online where time < 1613631009) (14:00:09 18/02/2021)
+::1(admin)--insert--gallery(7) (14:00:14 18/02/2021)

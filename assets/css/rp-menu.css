@@ -1,0 +1,125 @@
+.title-rpmenu {
+    font-size: 17px;
+    cursor: pointer;
+    cursor: hand;
+    /* position: fixed; */
+    /* top: 10px; */
+    /* left: 10px; */
+    z-index: 12345;
+    border-radius: 5px;
+}
+.title-rpmenu .icon-bar {
+    width: 30px;
+    height: 4px;
+    background: white;
+    float: left;
+    clear: both;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.cart-epx{display:none}
+
+#responsive-menu .close{    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 26px;
+    z-index: 123;}
+#responsive-menu {
+    position: fixed;
+    z-index: 20;
+    /* background-image:url(./../images/header-bg.jpg); */
+    width: auto;
+    max-height: 100%;
+    z-index: 1234;
+    max-height: 420px;
+    overflow-y: auto;
+    left: -300px;
+    height:100%;
+    width: 211px;
+    min-height:100%;
+    box-shadow: rgba(50, 50, 50, 0.498039) -2px 0px 5px 0px inset;
+    background: #ffffffd4;
+}
+
+
+
+ #responsive-menu .content {
+    max-width: 300px;
+    float: right;
+    width: 100%;
+  
+}
+#responsive-menu .content ul {
+    list-style: none;
+    padding: 0;
+
+    width: 100%;
+}
+ #responsive-menu .content > ul{
+   
+    padding: 0;
+    margin: 0;
+
+}
+
+ #responsive-menu .content  .toggle-menu{
+       float: right;
+    cursor: hand;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 11px;
+}
+ #responsive-menu .content  .toggle-menu.active{
+
+}
+ #responsive-menu .content  ul li a{
+       color: #0023bd;
+       font-size: 15px;
+       font-family: 'BeVietnam-Medium';
+       text-decoration: none;
+}
+#responsive-menu .content ul li a h2{
+     font-size: 15px;
+    margin: 0;
+}
+ #responsive-menu .content  ul li{
+     
+-moz-transition: all 0.5s ease;
+     
+-o-transition: all 0.5s ease;
+     
+-ms-transition: all 0.5s ease;
+     
+transition: all 0.5s ease;
+     
+padding: 10px 10px;
+     
+border-bottom: 1px solid rgb(0, 40, 85,0.1);
+     
+position: relative;
+     
+cursor: hand;
+     
+cursor: pointer;
+     
+float: none;
+     
+/* text-transform: uppercase; */
+}
+#responsive-menu .content  ul li:hover{background: #d8d6d6;}
+#responsive-menu .content  ul li ul{display:none}
+ #responsive-menu .content li li:first-child{    border-top: 1px solid rgba(247, 246, 246, 0.25);
+}
+ #responsive-menu .content > ul > li ul{
+    position: relative;
+    top: 9px;
+}
+#responsive-menu .content > ul li ul li{
+    /* padding-left: 15px; */
+    text-indent: 10px;
+}
+#responsive-menu .content > ul li ul li ul li{text-indent:20px}
+#responsive-menu .content > ul > li > ul > li > ul{}
